@@ -31,7 +31,6 @@ def video_ara_ve_indir():
   secilen_tag = random.choice(HASHTAGLER)
   print(f'Seçilen arama etiketi: #{secilen_tag}')
 
-  # Çerez dosyasının ekli olduğu arama ayarları
   arama_opts = {
       'noplaylist': True,
       'quiet': True,
@@ -70,8 +69,7 @@ def video_ara_ve_indir():
       return None, None
 
   cikti_temel_adi = 'indirilen_video'
-  
-  # Çerez dosyasının ekli olduğu indirme ayarları
+
   indirme_opts = {
       'format': 'bestvideo+bestaudio/best',
       'outtmpl': f'{cikti_temel_adi}.%(ext)s',

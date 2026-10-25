@@ -5,7 +5,6 @@ from googleapiclient.http import MediaFileUpload
 from google.oauth2.credentials import Credentials
 import yt_dlp
 
-# Hashtag havuzu
 HASHTAGLER = [
     'asmr',
     'asmrsounds',
